@@ -4,6 +4,7 @@ import React from "react"
 import { Container, Card, Flex, Box, Themed, useThemeUI } from 'theme-ui'
 import { Header } from '../components/header'
 import { Seo } from '../components/seo'
+import { Chimp } from '../components/chimp'
 
 const st = {
   scrn: {
@@ -101,6 +102,14 @@ const IndexPage = () => {
                 </p>
               </Card>
             </Flex>
+          </Box>
+        </Flex>
+
+        <Flex sx={{ alignItems: 'center', justifyContent: 'center', ...st.scrn, color: dark.text, bg: dark.bg }} id="contact">
+          <Box>
+            <Themed.h2 sx={{ color: dark.text }}>Newsletter</Themed.h2>
+            <p>We privide only valuable updates to our subscribers</p>
+            <Chimp />
           </Box>
         </Flex>
 
