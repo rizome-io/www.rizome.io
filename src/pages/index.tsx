@@ -3,6 +3,7 @@ import { jsx } from 'theme-ui'
 import React from "react"
 import { Container, Card, Flex, Box, Themed, useThemeUI } from 'theme-ui'
 import { Header } from '../components/header'
+import { Seo } from '../components/seo'
 
 const st = {
   scrn: {
@@ -30,6 +31,7 @@ const IndexPage = () => {
   )
   return (
     <>
+      <Seo title=" " />
       <Header />
       <Container>
         <canvas id="stars" width="300" height="300" style={{ position: 'absolute', background: dark.bg, zIndex: -1 }} />

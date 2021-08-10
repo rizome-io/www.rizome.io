@@ -1,6 +1,15 @@
 module.exports = {
   siteMetadata: {
-    title: "rizome.io",
+    title: `rizome.io | Cardano Blockchain Solutions`,
+    description: `Architecture and Infrastructure for Distributed Ledger technologies. Cardano blockchain development.`,
+    keywords: 'blockchain, cardano, stake, stakepool, lucid, delegate, secure, mining, staking, bitcoin',
+    author: `Andrej Novikov`,
+    siteUrl: `https://www.rizome.io/`,
+    social: [
+      { name: 'website', url: 'https://rizome.io' },
+      { name: 'github', url: 'https://github.com/rizome-io' },
+      { name: 'email', url: 'mailto:id@rizome.io' },
+    ]
   },
   plugins: [
     "gatsby-plugin-theme-ui",
