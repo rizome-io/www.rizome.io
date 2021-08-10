@@ -5,6 +5,7 @@ import { Container, Card, Flex, Box, Themed, useThemeUI } from 'theme-ui'
 import { Header } from '../components/header'
 import { Seo } from '../components/seo'
 import { Chimp } from '../components/chimp'
+import { PoolInfo } from '../components/pool-info'
 
 const st = {
   scrn: {
@@ -103,6 +104,38 @@ const IndexPage = () => {
               </Card>
             </Flex>
           </Box>
+        </Flex>
+
+        <Flex sx={{ ...st.scrn, ...light }} id="pool">
+          <Card>
+            <Themed.h2>
+              Lucid stake pool
+            </Themed.h2>
+
+            <PoolInfo />
+            <Box onClick={() => navigator.clipboard.writeText('Copy this text to clipboard')}>
+            </Box>
+            <Flex sx={{ flexWrap: 'wrap', mt: '2em' }}>
+              <Card sx={{ flex: '1 1', mr: '2em', minWidth: '10em' }}>
+                <Themed.h3>Independent Operation</Themed.h3>
+                <p sx={{ fontSize: 3 }}>
+                  value decentralization and encourage you to stake with smaller pools
+                </p>
+              </Card>
+              <Card sx={{ flex: '1 1', mr: '2em', minWidth: '10em' }}>
+                <Themed.h3>Dedicated Servers</Themed.h3>
+                <p sx={{ fontSize: 3 }}>
+                  Ryzen 7 4800H - main servers, raspberry Pi - backup servers, 1Gb/s connection
+                </p>
+              </Card>
+              <Card sx={{ flex: '1 1', minWidth: '10em' }}>
+                <Themed.h3>Security</Themed.h3>
+                <p sx={{ fontSize: 3 }}>
+                  no root access, cryptographic key authorization, ufw, fail2ban, vpc, dnssec, no private keys on servers
+                </p>
+              </Card>
+            </Flex>
+          </Card>
         </Flex>
 
         <Flex sx={{ alignItems: 'center', justifyContent: 'center', ...st.scrn, color: dark.text, bg: dark.bg }} id="contact">

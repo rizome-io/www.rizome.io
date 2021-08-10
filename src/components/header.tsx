@@ -21,7 +21,7 @@ export const Header = () =>
     <Link
       to="/"
       sx={{
-        variant: 'styles.navlink',
+        variant: 'styles.navlink', p: 0,
       }}>
       <div sx={{ position: 'relative' }}>
         <Logo sx={{ position: 'absolute', top: -10 }}/>
@@ -42,13 +42,13 @@ export const Header = () =>
       }}>
       Vision
     </AnchorLink>
-    <Link
-      to="https://lucid.rizome.io"
+    <AnchorLink
+      to="/#pool"
       sx={{
         variant: 'styles.navlink',
       }}>
       Pool
-    </Link>
+    </AnchorLink>
     <AnchorLink
       to="/#contact"
       sx={{
