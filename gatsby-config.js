@@ -20,6 +20,12 @@ module.exports = {
     "gatsby-plugin-anchor-links",
     "gatsby-plugin-web-font-loader",
     {
+      resolve: `gatsby-plugin-google-gtag`,
+      options: {
+        trackingIds: ['G-KCVXS0MSGY'],
+      },
+    },
+    {
       resolve: "gatsby-source-filesystem",
       options: {
         name: "images",
