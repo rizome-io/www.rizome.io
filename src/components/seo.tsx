@@ -31,6 +31,7 @@ export const Seo = ({
             author
             siteUrl
             keywords
+            imageSource
           }
         }
       }
@@ -41,6 +42,7 @@ export const Seo = ({
   title = title || site.siteMetadata.title
   lang = lang || 'en'
   meta = meta || []
+  imageSource = imageSource || site.siteMetadata.imageSource
 
   const metaDescription = description || site.siteMetadata.description
 

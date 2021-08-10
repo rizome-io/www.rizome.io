@@ -4,7 +4,8 @@ module.exports = {
     description: `Cardano blockchain stake pool. Delegate Cardano to reliable low fee pool. Architecture and Infrastructure for Distributed Ledger technologies.`,
     keywords: 'blockchain, cardano, stake, stakepool, lucid, delegate, secure, mining, staking, bitcoin',
     author: `Andrej Novikov`,
-    siteUrl: `https://www.rizome.io/`,
+    siteUrl: `https://www.rizome.io`,
+    imageSource: '/rizome_logo.png',
     social: [
       { name: 'website', url: 'https://rizome.io' },
       { name: 'github', url: 'https://github.com/rizome-io' },
