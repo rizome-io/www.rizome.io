@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
     title: `rizome.io | Cardano Blockchain Solutions`,
-    description: `Architecture and Infrastructure for Distributed Ledger technologies. Cardano blockchain development.`,
+    description: `Cardano blockchain stake pool. Delegate Cardano to reliable low fee pool. Architecture and Infrastructure for Distributed Ledger technologies.`,
     keywords: 'blockchain, cardano, stake, stakepool, lucid, delegate, secure, mining, staking, bitcoin',
     author: `Andrej Novikov`,
     siteUrl: `https://www.rizome.io/`,
