@@ -8,6 +8,8 @@ module.exports = {
     "gatsby-plugin-react-helmet",
     "gatsby-plugin-sharp",
     "gatsby-transformer-sharp",
+    "gatsby-plugin-anchor-links",
+    "gatsby-plugin-web-font-loader",
     {
       resolve: "gatsby-source-filesystem",
       options: {
@@ -16,5 +18,13 @@ module.exports = {
       },
       __key: "images",
     },
+    {
+      resolve: "gatsby-plugin-react-svg",
+      options: {
+        rule: {
+          include: /svg/
+        }
+      }
+    }
   ],
 };
