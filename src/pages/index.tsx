@@ -36,7 +36,7 @@ const IndexPage = () => {
       <Seo title=" " />
       <Header />
       <Container>
-        <canvas id="stars" width="300" height="300" style={{ position: 'absolute', background: dark.bg, zIndex: -1 }} />
+        <canvas id="stars" width="300" height="300" style={{ position: 'absolute', background: dark.bg, zIndex: -1, width: '100%' }} />
         <Flex sx={{ ...st.scrn, color: dark.text }}>
           <Card>
             <Themed.h1 sx={{ color: dark.text }} >
