@@ -49,9 +49,9 @@ const IndexPage = () => {
           </Card>
         </Flex>
 
-        <Flex sx={{ ...st.scrn, ...light }} id="about">
+        <Flex sx={{ ...st.scrn, ...light, color: light.text }} id="about">
           <Card>
-            <Themed.h2>
+            <Themed.h2 sx={{ color: light.text }}>
               About Us
             </Themed.h2>
             <p sx={{ fontSize: 3 }}>
@@ -106,9 +106,9 @@ const IndexPage = () => {
           </Box>
         </Flex>
 
-        <Flex sx={{ ...st.scrn, ...light }} id="pool">
+        <Flex sx={{ ...st.scrn, ...light, color: light.text }} id="pool">
           <Card>
-            <Themed.h2>
+            <Themed.h2 sx={{ color: light.text }}>
               Lucid stake pool
             </Themed.h2>
 
