@@ -42,13 +42,14 @@ export const Header = () =>
       }}>
       Vision
     </AnchorLink>
-    <AnchorLink
-      to="/#pool"
+    <Link
+      to="https://lucid.rizome.io"
+      target="_blank"
       sx={{
         variant: 'styles.navlink',
       }}>
       Pool
-    </AnchorLink>
+    </Link>
     <AnchorLink
       to="/#contact"
       sx={{
